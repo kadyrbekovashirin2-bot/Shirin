@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 15px 10%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a3d7c;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('mountain.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero .btn {
+  background: #1a3d7c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f1f1;
+  padding: 40px 10%;
+}
+
+.service {
+  width: 22%;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.products {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 22%;
+  margin: 10px 0;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background: #1a3d7c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+i{
+color: azure;
+}
+.service{
+  border: 3px solid black;
+  background-color: #364256;
+  color: aliceblue;
+}
+.hero {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Glorious-blue-mountain-range.jpg) no-repeat center/cover;
+  height: 450px;
+  position: relative;
+  color: white;
+  padding: 50px;
+}
+.camera-img {
+  position: absolute;
+  right: 10%;
+  bottom: 20px;
+  width: 300px;
+}
+.service:hover{
+  background-color: aqua;
+}
+.logo {
+  color: black;
+  text-decoration: none;
+}
+.logo :hover {
+  color:red;
+  text-decoration: underline;
+}
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+nav a:hover {
+  color: #0048ff;
+  text-decoration: underline;
+}
